@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+body
+{
+    background-color: #05363f;
+    color: #3cd6d6;
+    font-family: "Fredoka One";
+    font-size: 24px;
+}
+
+div
+{
+    text-align: center;
+}
+
+button
+{
+    border: 4px solid #3cd6d6;
+    border-radius: 16px;
+    padding: 8px 8px;
+    margin: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #05363f00;
+    color: #3cd6d6;
+    font-size: 24px;
+    font-family: "Fredoka One";
+    transition: 0.5s;
+}
+
+/* CSS for button clicker. */
+
+#clicker
+{
+    border: 4px solid #3cd6d6;
+    border-radius: 100%;
+    padding: 42px 42px;
+    margin: 8px 8px;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #05363f00;
+    color: #3cd6d6;
+    font-size: 24px;
+    font-family: "Fredoka One";
+    transition: 0.5s;
+}
+
+#clicker:hover
+{
+    border: 4px solid #6bffff;
+    padding: 48px 48px;
+    background-color: #3cd6d638;
+    transition: 0.5s;
+}
+
+#clicker:active
+{
+    border: 4px solid #e4ffff;
+    background-color: #05363f00;
+    padding: 36px 36px;
+    transition: 0.5s;
+}
